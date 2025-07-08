@@ -1,30 +1,43 @@
 # Sistema de Cadastro de Alunos
 
-Projeto simples em **Python** criado para praticar:
-
-- Dicionários e listas
-- Declaração de funções
-- Manipulação de arquivos JSON
-- Validação de entradas
-- Formatação de floats (`:.2f`)
+Projeto simples em Python, com interface no terminal, voltado para o cadastro de alunos e gerenciamento de notas. Os dados são armazenados localmente em um arquivo JSON.
 
 ## Funcionalidades
-1. **Cadastrar aluno**  
-2. **Lançar notas**  
-3. **Calcular média automática**  
-4. **Informar aprovação ou recuperação**  
-5. **Persistir dados em `alunos.json`**
 
-## Como usar
+- Cadastro de novos alunos
+- Registro de múltiplas notas por aluno
+- Cálculo automático da média
+- Verificação de aprovação (>=6) ou recuperação
+- Armazenamento dos dados em arquivo `.json`
 
-```bash
-git clone <este-repo>
-cd sistema-cadastro-alunos
-python main.py
-```
+## Tecnologias usadas
 
-Faça o teste cadastrando um aluno, lançando notas e consultando a aprovação!
+- Python 3.x
+- Módulo `json` (persistência dos dados)
+- Módulo `os` e `time` (controle de tela e pausa)
 
----
+## Como executar
 
-_Feito por Cael durante sua jornada de transição para a área de programação._
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/OtavioClemente-bit/cadastro_alunos.git
+   cd cadastro_alunos
+
+    Execute o código:
+
+    python main.py
+
+    ⚠️ Requer Python 3 instalado no sistema.
+
+Estrutura dos arquivos
+
+cadastro_alunos/
+│
+├── main.py         # Código principal do sistema
+├── alunos.json     # Dados salvos dos alunos e notas
+└── README.md       # Documentação
+
+Autor
+
+Desenvolvido por Otavio Clemente,
+em processo de transição de carreira para desenvolvedor backend com Python.
